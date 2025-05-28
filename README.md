@@ -22,6 +22,16 @@ This project is a Python-based network packet sniffer built using [Scapy](https:
 - Scapy
 
 Install dependencies in a virtual environment:
+---
+
+See the [sniffer.py](sniffer.py) file for the full code.
+
+
+![Code](./pycode.png)
+
+---
+![Packets](./packets.png)
+
 
 ```bash
 python3 -m venv scapy-env
