@@ -28,10 +28,11 @@ This project is a Python-based network packet sniffer built using [Scapy](https:
 ## Installation 
 1. Clone the repository
    `git clone https://github.com/yourusername/network-sniffer.git`
+   
    `cd network-sniffer`
 
-2. We Set up Python virtual environment
-3. Install dependencies
+3. We Set up Python virtual environment
+4. Install dependencies
 
 ---
 Challenges faced
@@ -75,11 +76,15 @@ Considered MITM proxy for educational purposes
 
 ***Sample Output***
 `[+] Packet: 192.168.1.15 -> 142.250.190.46 | Protocol: TCP`
+
   `  TCP - Source Port: 43422 -> Dest Port: 443`
+  
  `   Flags: A`
 
 `[+] Packet: 142.250.190.46 -> 192.168.1.15 | Protocol: TCP`
+
   `  TCP - Source Port: 443 -> Dest Port: 43422`
+  
    ` Flags: PA`
 
 
